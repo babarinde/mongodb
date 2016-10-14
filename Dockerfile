@@ -22,7 +22,7 @@ VOLUME ["/data/db"]
 WORKDIR /data
 
 # Define default command.
-CMD ["mongod --auth=true"]
+CMD ["mongod","--auth"]
 
 # Expose ports.
 #   - 27017: process
